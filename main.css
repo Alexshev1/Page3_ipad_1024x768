@@ -1,0 +1,241 @@
+/* ШРИФТЫ 
+font-family: 'Gotham Pro Regular';
+font-family: 'Lato', sans-serif;
+*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+
+@font-face {
+	font-family: 'Gotham Pro Regular';
+	src: url('GothamPro.eot');
+	src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+	url('GothamPro.woff') format('woff'),
+	url('GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url(../images/Background.jpg);
+	margin: 0 auto;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+
+h1, div {
+	margin: 0;
+	padding: 0;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	max-width: 974px;
+	max-height: 768px;
+}
+
+.zagolovok {
+	margin-top: 110px;
+	margin-left: 45px;
+	font-family: 'Gotham Pro Regular';
+	font-size: 30px;
+	color: #fff;
+}
+
+.ice_block2 {
+	width: 50px;
+	margin-left: auto;
+	margin-right: 50px;
+}
+
+.ice_block1 {
+	width: 120px;
+	margin-left: auto;
+	margin-right: 230px;
+	margin-top: 70px;
+}
+
+.zveno_1 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	margin-top: -125px;
+}
+
+span.number_1, span.number_2, span.number_3 {
+	font-size: 1.5em;
+}
+
+.round_betta {
+  width: 5em;
+  height: 5em;
+  border: none;
+  border-radius: 50%;
+  line-height: 5em;  
+  text-align: center;
+  background: #3f427f;
+}
+
+span.round_1 {
+	font-size: 3.5em;
+	color: #fff;
+}
+
+.round_betta {
+
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.strelka_1 {
+	text-align: center;
+	margin-right: 244px;
+	margin-top: -25px;
+}
+
+.round_musle {
+	width: 5em;
+	height: 5em;
+	border: none;
+	border-radius: 50%;
+	line-height: 7em;  
+	text-align: center;  
+	background: #383e66;
+	margin-left: 203px;
+	margin-top: -32px;
+}
+
+.zveno_2 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	margin-top: -163px;
+	margin-left: 140px;
+	width: 200px;
+}
+
+.strelka_4 {
+	width: 65px;
+	margin-left: 290px;
+	margin-top: 40px;
+}
+
+.strelka_2 {
+	margin: 0 auto;
+	width: 20px;
+	height: 70px;
+	margin-top: -130px;
+	padding-left: 10px;
+}
+
+.square {
+	text-align: center;
+	margin: 0 auto;
+	border: solid #fff 1px;
+	width: 150px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	margin-top: 1px;
+	padding: 36px 53px;
+}
+
+.strelka_3 {
+	margin: 0 auto;
+	width: 65px;
+	margin-right: 377px;
+	margin-top: -205px;
+}
+
+.strelka_5 {
+	margin: 0 auto;
+	width: 65px;
+	margin-right: 284px;
+	margin-top: 4px;
+}
+
+.round_pechen {
+	width: 5em;
+ 	height: 5em;
+  	border: none;
+ 	border-radius: 50%;
+ 	line-height: 8em;
+ 	text-align: center;
+ 	background: #383e66;
+ 	margin-left: auto;
+ 	margin-top: -55px;
+ 	margin-right: 203px;
+}
+
+.zveno_3 {
+	margin-left: auto;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	margin-top: -163px;
+	width: 200px;
+	margin-right: 140px;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-top: -80px;
+	margin-bottom: 90px;
+}
+
+.navigation img {
+	margin-top: 6px;
+	margin-left: auto;
+}
+
+.ice_block3 {
+	width: 250px;
+	filter: blur(1px);
+ 	opacity:.25;
+ 	z-index: 1;
+ 	margin-bottom: -80px;
+}
+
+.polygon_block {
+	margin-left: auto;
+	width: 100px;
+	text-align: center;
+	margin-left: 141px;
+	margin-bottom: 24px;
+	margin-top: -108px;
+}
+
+.poloska {
+	width: 640px;
+	text-align: center;
+	margin-top: -68px;
+	margin-left: 178px;
+	margin-bottom: 28px;
+}
+
+.year {
+	width: 627px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: -5px;
+	color: #fff;
+	font-family: 'Gotham Pro Regular';
+	font-size: 20px;
+	margin-left: 172px;
+}
+
+
+
+
+
+}
